@@ -4,17 +4,51 @@
   <meta charset="UTF-8">
   <title>Create 2 SLAM Toolbox + Teleoperación</title>
   <style>
-    body { font-family: Arial, sans-serif; background-color: #f8f9fa; padding: 40px; color: #212529; line-height: 1.6; }
-    h1, h2, h3 { color: #343a40; }
-    code { background-color: #e9ecef; padding: 2px 6px; border-radius: 4px; font-size: 0.95em; }
-    pre { background-color: #f1f3f5; padding: 10px; border-left: 4px solid #007bff; overflow-x: auto; }
-    a { color: #007bff; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-    .section { margin-bottom: 40px; }
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      background-color: #1e1e1e;
+      color: #d4d4d4;
+      padding: 40px;
+      line-height: 1.6;
+    }
+    h1, h2, h3 {
+      color: #569cd6;
+    }
+    code {
+      background-color: #2d2d2d;
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 0.95em;
+      color: #c586c0;
+    }
+    pre {
+      background-color: #2d2d2d;
+      padding: 10px;
+      border-left: 4px solid #007acc;
+      overflow-x: auto;
+      color: #dcdcaa;
+    }
+    a {
+      color: #4fc1ff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    .section {
+      margin-bottom: 40px;
+    }
+    .centered-img {
+      display: block;
+      margin: 20px auto;
+      max-width: 90%;
+      border: 2px solid #444;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
-  <h1>Create 2 + LIDAR + SLAM Toolbox + Teleoperación</h1>
+  <h1>🧠 Create 2 + LIDAR + SLAM Toolbox + Teleoperación</h1>
   <p>Repositorio con todo el entorno ROS 2 configurado para realizar mapeo y navegación autónoma con el robot <strong>Create 2</strong> usando <code>slam_toolbox</code>, sensor LIDAR y teleoperación por teclado.</p>
 
   <div class="section">
@@ -52,6 +86,8 @@ sudo usermod -aG dialout $USER</code></pre>
 
       <li>Visualización en Rviz:</li>
       <pre><code>ros2 launch rplidar_ros view_rplidar.launch.py</code></pre>
+
+      <img src="rviz_lidar_example.png" alt="Vista de Rviz con LIDAR activo" class="centered-img">
     </ol>
   </div>
 
@@ -65,6 +101,8 @@ sudo usermod -aG dialout $USER</code></pre>
 
       <li>Mover el robot con el nodo de teleoperación para crear un mapa del entorno, luego en otra terminal guardar el mapa:</li>
       <pre><code>ros2 run nav2_map_server map_saver -f /ruta/mapa_guardado</code></pre>
+
+      <img src="slam_map_example.png" alt="Mapa generado por SLAM Toolbox" class="centered-img">
     </ol>
   </div>
 
