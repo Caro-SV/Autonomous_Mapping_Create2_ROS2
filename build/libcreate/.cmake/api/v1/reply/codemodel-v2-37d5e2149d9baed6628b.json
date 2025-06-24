@@ -1,0 +1,187 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-18c3be65ed3643e62ef9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "libcreate",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "battery_level::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-battery_level-f93745e717b310be348d.json",
+					"name" : "battery_level",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "bumpers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-bumpers-33850dc3dbb507c595c9.json",
+					"name" : "bumpers",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cliffs::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cliffs-75119ee2eca96f3b8f73.json",
+					"name" : "cliffs",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "create::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-create-97f25ea19ed50f35f904.json",
+					"name" : "create",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "drive_circle::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-drive_circle-94dbb7a124a2714d1a1e.json",
+					"name" : "drive_circle",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "leds::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-leds-060e26a5291f6814287a.json",
+					"name" : "leds",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "packets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-packets-40210f4aa146f5fa4b48.json",
+					"name" : "packets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "play_song::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-play_song-c370b4d73765a7f56456.json",
+					"name" : "play_song",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_create::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_create-2e6f86b105a60cf3cc23.json",
+					"name" : "test_create",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_data::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_data-4648909a45a60e7988ed.json",
+					"name" : "test_data",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_packet::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_packet-f6011356fc9bd80071f4.json",
+					"name" : "test_packet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_robot_model::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_robot_model-fdf9f4fde6d7557072f8.json",
+					"name" : "test_robot_model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_serial_query::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_serial_query-5f0aed8279fb0fd8092b.json",
+					"name" : "test_serial_query",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "test_serial_stream::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-test_serial_stream-e8367de5c0e64af2c155.json",
+					"name" : "test_serial_stream",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "wheeldrop::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-wheeldrop-42ad489030e212705ab8.json",
+					"name" : "wheeldrop",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/juand/create_ws/build/libcreate",
+		"source" : "/home/juand/create_ws/src/libcreate"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

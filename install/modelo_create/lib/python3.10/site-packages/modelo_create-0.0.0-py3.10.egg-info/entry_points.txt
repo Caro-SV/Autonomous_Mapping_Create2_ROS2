@@ -1,0 +1,3 @@
+[console_scripts]
+teleopkey = modelo_create.teleopkey:main
+

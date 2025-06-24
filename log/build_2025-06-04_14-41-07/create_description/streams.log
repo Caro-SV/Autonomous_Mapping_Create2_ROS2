@@ -1,0 +1,35 @@
+[0.040s] Invoking command in '/home/juand/create_ws/build/create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --build /home/juand/create_ws/build/create_description -- -j4 -l4
+[0.811s] Invoked command in '/home/juand/create_ws/build/create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --build /home/juand/create_ws/build/create_description -- -j4 -l4
+[0.831s] Invoking command in '/home/juand/create_ws/build/create_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --install /home/juand/create_ws/build/create_description
+[0.846s] -- Install configuration: ""
+[0.847s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/launch
+[0.847s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/launch/roomba_400.launch
+[0.848s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/launch/create_2.launch
+[0.848s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/launch/create_1.launch
+[0.848s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/meshes
+[0.849s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/meshes/create_2.dae
+[0.849s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/meshes/create_1.dae
+[0.849s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/meshes/create_1.tga
+[0.849s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/urdf
+[0.851s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/urdf/create_1.urdf.xacro
+[0.851s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/urdf/create_2_gazebo.urdf.xacro
+[0.854s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/urdf/create_base_gazebo.urdf.xacro
+[0.854s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/urdf/create_1_gazebo.urdf.xacro
+[0.855s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/urdf/create_2.urdf.xacro
+[0.855s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/urdf/create_base.urdf.xacro
+[0.855s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/ament_index/resource_index/package_run_dependencies/create_description
+[0.856s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/ament_index/resource_index/parent_prefix_path/create_description
+[0.857s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/environment/ament_prefix_path.sh
+[0.857s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/environment/ament_prefix_path.dsv
+[0.857s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/environment/path.sh
+[0.857s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/environment/path.dsv
+[0.857s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/local_setup.bash
+[0.857s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/local_setup.sh
+[0.857s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/local_setup.zsh
+[0.858s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/local_setup.dsv
+[0.858s] -- Installing: /home/juand/create_ws/install/create_description/share/create_description/package.dsv
+[0.858s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/ament_index/resource_index/packages/create_description
+[0.858s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/cmake/create_descriptionConfig.cmake
+[0.858s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/cmake/create_descriptionConfig-version.cmake
+[0.858s] -- Up-to-date: /home/juand/create_ws/install/create_description/share/create_description/package.xml
+[0.860s] Invoked command in '/home/juand/create_ws/build/create_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --install /home/juand/create_ws/build/create_description

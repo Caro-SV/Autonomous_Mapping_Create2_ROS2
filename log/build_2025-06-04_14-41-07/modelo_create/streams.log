@@ -1,0 +1,24 @@
+[1.535s] Invoking command in '/home/juand/create_ws/src/modelo_create': PYTHONPATH=/home/juand/create_ws/build/modelo_create/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juand/create_ws/install/modelo_create/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/modelo_create build --build-base /home/juand/create_ws/build/modelo_create/build install --record /home/juand/create_ws/build/modelo_create/install.log --single-version-externally-managed install_data
+[1.834s] running egg_info
+[1.835s] writing ../../build/modelo_create/modelo_create.egg-info/PKG-INFO
+[1.836s] writing dependency_links to ../../build/modelo_create/modelo_create.egg-info/dependency_links.txt
+[1.836s] writing entry points to ../../build/modelo_create/modelo_create.egg-info/entry_points.txt
+[1.836s] writing requirements to ../../build/modelo_create/modelo_create.egg-info/requires.txt
+[1.836s] writing top-level names to ../../build/modelo_create/modelo_create.egg-info/top_level.txt
+[1.838s] reading manifest file '../../build/modelo_create/modelo_create.egg-info/SOURCES.txt'
+[1.842s] writing manifest file '../../build/modelo_create/modelo_create.egg-info/SOURCES.txt'
+[1.842s] running build
+[1.842s] running build_py
+[1.843s] copying modelo_create/teleopkey.py -> /home/juand/create_ws/build/modelo_create/build/lib/modelo_create
+[1.843s] running install
+[1.844s] running install_lib
+[1.845s] copying /home/juand/create_ws/build/modelo_create/build/lib/modelo_create/teleopkey.py -> /home/juand/create_ws/install/modelo_create/lib/python3.10/site-packages/modelo_create
+[1.846s] byte-compiling /home/juand/create_ws/install/modelo_create/lib/python3.10/site-packages/modelo_create/teleopkey.py to teleopkey.cpython-310.pyc
+[1.846s] running install_data
+[1.848s] running install_egg_info
+[1.850s] removing '/home/juand/create_ws/install/modelo_create/lib/python3.10/site-packages/modelo_create-0.0.0-py3.10.egg-info' (and everything under it)
+[1.851s] Copying ../../build/modelo_create/modelo_create.egg-info to /home/juand/create_ws/install/modelo_create/lib/python3.10/site-packages/modelo_create-0.0.0-py3.10.egg-info
+[1.852s] running install_scripts
+[1.874s] Installing teleopkey script to /home/juand/create_ws/install/modelo_create/lib/modelo_create
+[1.875s] writing list of installed files to '/home/juand/create_ws/build/modelo_create/install.log'
+[1.905s] Invoked command in '/home/juand/create_ws/src/modelo_create' returned '0': PYTHONPATH=/home/juand/create_ws/build/modelo_create/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/juand/create_ws/install/modelo_create/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/modelo_create build --build-base /home/juand/create_ws/build/modelo_create/build install --record /home/juand/create_ws/build/modelo_create/install.log --single-version-externally-managed install_data

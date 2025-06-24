@@ -1,0 +1,93 @@
+[0.034s] Invoking command in '/home/juand/create_ws/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake /home/juand/create_ws/src/libcreate -DCMAKE_INSTALL_PREFIX=/home/juand/create_ws/install/libcreate
+[0.186s] -- The C compiler identification is GNU 11.4.0
+[0.344s] -- The CXX compiler identification is GNU 11.4.0
+[0.358s] -- Detecting C compiler ABI info
+[0.489s] -- Detecting C compiler ABI info - done
+[0.510s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.511s] -- Detecting C compile features
+[0.511s] -- Detecting C compile features - done
+[0.515s] -- Detecting CXX compiler ABI info
+[0.661s] -- Detecting CXX compiler ABI info - done
+[0.684s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.684s] -- Detecting CXX compile features
+[0.684s] -- Detecting CXX compile features - done
+[1.014s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system thread 
+[1.020s] -- Found Threads: TRUE  
+[1.044s] -- Found GTest: /usr/lib/x86_64-linux-gnu/cmake/GTest/GTestConfig.cmake (found version "1.11.0")  
+[1.044s] [0mGTest installation found. Building tests.[0m
+[1.046s] -- Configuring done
+[1.091s] -- Generating done
+[1.103s] -- Build files have been written to: /home/juand/create_ws/build/libcreate
+[1.109s] Invoked command in '/home/juand/create_ws/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake /home/juand/create_ws/src/libcreate -DCMAKE_INSTALL_PREFIX=/home/juand/create_ws/install/libcreate
+[1.111s] Invoking command in '/home/juand/create_ws/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --build /home/juand/create_ws/build/libcreate -- -j4 -l4
+[1.214s] [  2%] [32mBuilding CXX object CMakeFiles/create.dir/src/create.cpp.o[0m
+[1.220s] [  5%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial.cpp.o[0m
+[1.223s] [  8%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial_stream.cpp.o[0m
+[1.233s] [ 11%] [32mBuilding CXX object CMakeFiles/create.dir/src/serial_query.cpp.o[0m
+[8.304s] [ 13%] [32mBuilding CXX object CMakeFiles/create.dir/src/data.cpp.o[0m
+[11.835s] [ 16%] [32mBuilding CXX object CMakeFiles/create.dir/src/packet.cpp.o[0m
+[12.037s] [ 19%] [32mBuilding CXX object CMakeFiles/create.dir/src/types.cpp.o[0m
+[12.837s] [ 22%] [32m[1mLinking CXX shared library libcreate.so[0m
+[13.354s] [ 22%] Built target create
+[13.425s] [ 25%] [32mBuilding CXX object CMakeFiles/bumpers.dir/examples/bumpers.cpp.o[0m
+[13.430s] [ 27%] [32mBuilding CXX object CMakeFiles/cliffs.dir/examples/cliffs.cpp.o[0m
+[13.436s] [ 30%] [32mBuilding CXX object CMakeFiles/drive_circle.dir/examples/drive_circle.cpp.o[0m
+[13.451s] [ 33%] [32mBuilding CXX object CMakeFiles/battery_level.dir/examples/battery_level.cpp.o[0m
+[20.806s] [ 36%] [32m[1mLinking CXX executable drive_circle[0m
+[21.213s] [ 36%] Built target drive_circle
+[21.305s] [ 38%] [32mBuilding CXX object CMakeFiles/leds.dir/examples/leds.cpp.o[0m
+[21.860s] [ 41%] [32m[1mLinking CXX executable bumpers[0m
+[22.408s] [ 41%] Built target bumpers
+[22.495s] [ 44%] [32mBuilding CXX object CMakeFiles/packets.dir/examples/packets.cpp.o[0m
+[23.085s] [ 47%] [32m[1mLinking CXX executable cliffs[0m
+[23.382s] [ 47%] Built target cliffs
+[23.460s] [ 50%] [32mBuilding CXX object CMakeFiles/play_song.dir/examples/play_song.cpp.o[0m
+[23.942s] [ 52%] [32m[1mLinking CXX executable battery_level[0m
+[24.487s] [ 52%] Built target battery_level
+[24.615s] [ 55%] [32mBuilding CXX object CMakeFiles/wheeldrop.dir/examples/wheeldrop.cpp.o[0m
+[27.840s] [ 58%] [32m[1mLinking CXX executable leds[0m
+[28.162s] [ 58%] Built target leds
+[28.245s] [ 61%] [32mBuilding CXX object CMakeFiles/test_create.dir/tests/test_create.cpp.o[0m
+[29.876s] [ 63%] [32m[1mLinking CXX executable packets[0m
+[30.409s] [ 63%] Built target packets
+[30.734s] [ 66%] [32m[1mLinking CXX executable wheeldrop[0m
+[30.923s] [ 66%] Built target wheeldrop
+[30.968s] [ 69%] [32m[1mLinking CXX executable play_song[0m
+[31.154s] [ 69%] Built target play_song
+[33.343s] [ 72%] [32m[1mLinking CXX executable test_create[0m
+[33.504s] [ 72%] Built target test_create
+[33.527s] [ 75%] [32mBuilding CXX object CMakeFiles/test_robot_model.dir/tests/test_robot_model.cpp.o[0m
+[34.299s] [ 77%] [32m[1mLinking CXX executable test_robot_model[0m
+[34.444s] [ 77%] Built target test_robot_model
+[34.472s] [ 80%] [32mBuilding CXX object CMakeFiles/test_serial_stream.dir/tests/test_serial_stream.cpp.o[0m
+[36.365s] [ 83%] [32m[1mLinking CXX executable test_serial_stream[0m
+[36.507s] [ 83%] Built target test_serial_stream
+[36.530s] [ 88%] [32mBuilding CXX object CMakeFiles/test_packet.dir/tests/test_packet.cpp.o[0m
+[36.530s] [ 88%] [32mBuilding CXX object CMakeFiles/test_serial_query.dir/tests/test_serial_query.cpp.o[0m
+[37.351s] [ 91%] [32m[1mLinking CXX executable test_packet[0m
+[37.496s] [ 91%] Built target test_packet
+[37.518s] [ 94%] [32mBuilding CXX object CMakeFiles/test_data.dir/tests/test_data.cpp.o[0m
+[38.434s] [ 97%] [32m[1mLinking CXX executable test_data[0m
+[38.584s] [ 97%] Built target test_data
+[38.655s] [100%] [32m[1mLinking CXX executable test_serial_query[0m
+[38.794s] [100%] Built target test_serial_query
+[38.807s] Invoked command in '/home/juand/create_ws/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --build /home/juand/create_ws/build/libcreate -- -j4 -l4
+[38.808s] Invoking command in '/home/juand/create_ws/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --install /home/juand/create_ws/build/libcreate
+[38.817s] -- Install configuration: ""
+[38.817s] -- Installing: /home/juand/create_ws/install/libcreate/lib/libcreate.so
+[38.819s] -- Installing: /home/juand/create_ws/install/libcreate/include
+[38.819s] -- Installing: /home/juand/create_ws/install/libcreate/include/create
+[38.819s] -- Installing: /home/juand/create_ws/install/libcreate/include/create/util.h
+[38.819s] -- Installing: /home/juand/create_ws/install/libcreate/include/create/serial.h
+[38.819s] -- Installing: /home/juand/create_ws/install/libcreate/include/create/serial_query.h
+[38.819s] -- Installing: /home/juand/create_ws/install/libcreate/include/create/create.h
+[38.819s] -- Installing: /home/juand/create_ws/install/libcreate/include/create/serial_stream.h
+[38.820s] -- Installing: /home/juand/create_ws/install/libcreate/include/create/types.h
+[38.820s] -- Installing: /home/juand/create_ws/install/libcreate/include/create/packet.h
+[38.820s] -- Installing: /home/juand/create_ws/install/libcreate/include/create/data.h
+[38.820s] -- Installing: /home/juand/create_ws/install/libcreate/lib/cmake/libcreate/libcreate-config.cmake
+[38.820s] -- Installing: /home/juand/create_ws/install/libcreate/lib/cmake/libcreate/libcreate-config-version.cmake
+[38.820s] -- Installing: /home/juand/create_ws/install/libcreate/lib/cmake/libcreate/libcreate-targets.cmake
+[38.820s] -- Installing: /home/juand/create_ws/install/libcreate/lib/cmake/libcreate/libcreate-targets-noconfig.cmake
+[38.820s] -- Installing: /home/juand/create_ws/install/libcreate/share/libcreate/package.xml
+[38.822s] Invoked command in '/home/juand/create_ws/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --install /home/juand/create_ws/build/libcreate

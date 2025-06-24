@@ -1,0 +1,36 @@
+[0.043s] Invoking command in '/home/juand/create_ws/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --build /home/juand/create_ws/build/libcreate -- -j4 -l4
+[0.291s] [ 22%] Built target create
+[0.407s] [ 27%] Built target drive_circle
+[0.421s] [ 33%] Built target bumpers
+[0.421s] [ 38%] Built target battery_level
+[0.426s] [ 44%] Built target cliffs
+[0.511s] [ 50%] Built target leds
+[0.545s] [ 55%] Built target wheeldrop
+[0.545s] [ 61%] Built target packets
+[0.546s] [ 66%] Built target play_song
+[0.630s] [ 72%] Built target test_robot_model
+[0.657s] [ 77%] Built target test_data
+[0.667s] [ 83%] Built target test_create
+[0.674s] [ 88%] Built target test_packet
+[0.759s] [ 94%] Built target test_serial_stream
+[0.775s] [100%] Built target test_serial_query
+[0.838s] Invoked command in '/home/juand/create_ws/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --build /home/juand/create_ws/build/libcreate -- -j4 -l4
+[0.843s] Invoking command in '/home/juand/create_ws/build/libcreate': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --install /home/juand/create_ws/build/libcreate
+[0.865s] -- Install configuration: ""
+[0.869s] -- Up-to-date: /home/juand/create_ws/install/libcreate/lib/libcreate.so
+[0.869s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include
+[0.869s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create
+[0.870s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create/util.h
+[0.870s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create/serial.h
+[0.870s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create/serial_query.h
+[0.870s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create/create.h
+[0.870s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create/serial_stream.h
+[0.871s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create/types.h
+[0.871s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create/packet.h
+[0.871s] -- Up-to-date: /home/juand/create_ws/install/libcreate/include/create/data.h
+[0.871s] -- Up-to-date: /home/juand/create_ws/install/libcreate/lib/cmake/libcreate/libcreate-config.cmake
+[0.871s] -- Up-to-date: /home/juand/create_ws/install/libcreate/lib/cmake/libcreate/libcreate-config-version.cmake
+[0.871s] -- Up-to-date: /home/juand/create_ws/install/libcreate/lib/cmake/libcreate/libcreate-targets.cmake
+[0.871s] -- Up-to-date: /home/juand/create_ws/install/libcreate/lib/cmake/libcreate/libcreate-targets-noconfig.cmake
+[0.872s] -- Up-to-date: /home/juand/create_ws/install/libcreate/share/libcreate/package.xml
+[0.929s] Invoked command in '/home/juand/create_ws/build/libcreate' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --install /home/juand/create_ws/build/libcreate

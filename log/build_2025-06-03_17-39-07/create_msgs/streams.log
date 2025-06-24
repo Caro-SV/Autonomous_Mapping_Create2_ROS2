@@ -1,0 +1,399 @@
+[0.037s] Invoking command in '/home/juand/create_ws/build/create_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake /home/juand/create_ws/src/create_robot/create_msgs -DCMAKE_INSTALL_PREFIX=/home/juand/create_ws/install/create_msgs
+[0.186s] -- The C compiler identification is GNU 11.4.0
+[0.347s] -- The CXX compiler identification is GNU 11.4.0
+[0.363s] -- Detecting C compiler ABI info
+[0.487s] -- Detecting C compiler ABI info - done
+[0.502s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.504s] -- Detecting C compile features
+[0.506s] -- Detecting C compile features - done
+[0.513s] -- Detecting CXX compiler ABI info
+[0.664s] -- Detecting CXX compiler ABI info - done
+[0.680s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.680s] -- Detecting CXX compile features
+[0.681s] -- Detecting CXX compile features - done
+[0.690s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.999s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.272s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.289s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.313s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.609s] -- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)
+[2.517s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.049s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.727s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.812s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.824s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.917s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.917s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.917s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.917s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.003s] -- Found PythonExtra: .so  
+[4.224s] -- Configuring done
+[4.395s] -- Generating done
+[4.449s] -- Build files have been written to: /home/juand/create_ws/build/create_msgs
+[4.485s] Invoked command in '/home/juand/create_ws/build/create_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake /home/juand/create_ws/src/create_robot/create_msgs -DCMAKE_INSTALL_PREFIX=/home/juand/create_ws/install/create_msgs
+[4.486s] Invoking command in '/home/juand/create_ws/build/create_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --build /home/juand/create_ws/build/create_msgs -- -j4 -l4
+[4.645s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.664s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.703s] [  2%] Built target ament_cmake_python_copy_create_msgs
+[5.317s] running egg_info
+[5.318s] creating create_msgs.egg-info
+[5.318s] writing create_msgs.egg-info/PKG-INFO
+[5.320s] writing dependency_links to create_msgs.egg-info/dependency_links.txt
+[5.320s] writing top-level names to create_msgs.egg-info/top_level.txt
+[5.320s] writing manifest file 'create_msgs.egg-info/SOURCES.txt'
+[5.328s] reading manifest file 'create_msgs.egg-info/SOURCES.txt'
+[5.328s] writing manifest file 'create_msgs.egg-info/SOURCES.txt'
+[5.450s] [  2%] Built target ament_cmake_python_build_create_msgs_egg
+[8.439s] [  2%] Built target create_msgs__cpp
+[8.483s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.497s] [  5%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.519s] [  6%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[9.805s] [  7%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_c.dir/rosidl_generator_c/create_msgs/msg/detail/bumper__functions.c.o[0m
+[10.030s] [  8%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_c.dir/rosidl_generator_c/create_msgs/msg/detail/charging_state__functions.c.o[0m
+[10.244s] [ 10%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_c.dir/rosidl_generator_c/create_msgs/msg/detail/define_song__functions.c.o[0m
+[10.536s] [ 11%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_c.dir/rosidl_generator_c/create_msgs/msg/detail/mode__functions.c.o[0m
+[10.691s] [ 12%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_c.dir/rosidl_generator_c/create_msgs/msg/detail/play_song__functions.c.o[0m
+[10.858s] [ 13%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_c.dir/rosidl_generator_c/create_msgs/msg/detail/motor_setpoint__functions.c.o[0m
+[11.063s] [ 15%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_c.dir/rosidl_generator_c/create_msgs/msg/detail/cliff__functions.c.o[0m
+[11.241s] [ 16%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create_msgs/msg/detail/dds_fastrtps/bumper__type_support.cpp.o[0m
+[11.265s] [ 17%] [32m[1mLinking C shared library libcreate_msgs__rosidl_generator_c.so[0m
+[11.436s] [ 17%] Built target create_msgs__rosidl_generator_c
+[11.479s] [ 18%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.970s] [ 20%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create_msgs/msg/bumper__type_support.cpp.o[0m
+[12.813s] [ 21%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create_msgs/msg/detail/bumper__type_support.cpp.o[0m
+[12.840s] [ 22%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create_msgs/msg/detail/dds_fastrtps/charging_state__type_support.cpp.o[0m
+[13.010s] [ 24%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create_msgs/msg/charging_state__type_support.cpp.o[0m
+[13.903s] [ 25%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create_msgs/msg/detail/charging_state__type_support.cpp.o[0m
+[14.000s] [ 26%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create_msgs/msg/define_song__type_support.cpp.o[0m
+[14.689s] [ 27%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create_msgs/msg/detail/dds_fastrtps/define_song__type_support.cpp.o[0m
+[15.389s] [ 29%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create_msgs/msg/detail/bumper__type_support_c.cpp.o[0m
+[15.512s] [ 30%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create_msgs/msg/mode__type_support.cpp.o[0m
+[15.615s] [ 31%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create_msgs/msg/detail/define_song__type_support.cpp.o[0m
+[16.514s] [ 32%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create_msgs/msg/detail/mode__type_support.cpp.o[0m
+[16.578s] [ 34%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create_msgs/msg/detail/dds_fastrtps/mode__type_support.cpp.o[0m
+[16.932s] [ 35%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create_msgs/msg/play_song__type_support.cpp.o[0m
+[17.327s] [ 36%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create_msgs/msg/detail/charging_state__type_support_c.cpp.o[0m
+[17.879s] [ 37%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create_msgs/msg/motor_setpoint__type_support.cpp.o[0m
+[18.548s] [ 39%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create_msgs/msg/detail/play_song__type_support.cpp.o[0m
+[18.622s] [ 40%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create_msgs/msg/detail/dds_fastrtps/play_song__type_support.cpp.o[0m
+[18.835s] [ 41%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create_msgs/msg/detail/define_song__type_support_c.cpp.o[0m
+[18.980s] [ 43%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/create_msgs/msg/cliff__type_support.cpp.o[0m
+[19.944s] [ 44%] [32m[1mLinking CXX shared library libcreate_msgs__rosidl_typesupport_cpp.so[0m
+[20.154s] [ 44%] Built target create_msgs__rosidl_typesupport_cpp
+[20.181s] [ 45%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create_msgs/msg/detail/motor_setpoint__type_support.cpp.o[0m
+[20.300s] [ 46%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create_msgs/msg/detail/dds_fastrtps/motor_setpoint__type_support.cpp.o[0m
+[20.326s] [ 48%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create_msgs/msg/detail/mode__type_support_c.cpp.o[0m
+[20.688s] [ 49%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/create_msgs/msg/detail/cliff__type_support.cpp.o[0m
+[21.571s] [ 50%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/create_msgs/msg/detail/dds_fastrtps/cliff__type_support.cpp.o[0m
+[21.708s] [ 51%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[21.780s] [ 53%] [32m[1mLinking CXX shared library libcreate_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[22.134s] [ 53%] Built target create_msgs__rosidl_typesupport_introspection_cpp
+[22.200s] [ 54%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create_msgs/msg/detail/play_song__type_support_c.cpp.o[0m
+[22.202s] [ 55%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[23.476s] [ 56%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create_msgs/msg/detail/motor_setpoint__type_support_c.cpp.o[0m
+[23.580s] [ 58%] [32m[1mLinking CXX shared library libcreate_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[23.819s] [ 58%] Built target create_msgs__rosidl_typesupport_fastrtps_cpp
+[23.834s] [ 59%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/create_msgs/msg/detail/cliff__type_support_c.cpp.o[0m
+[24.920s] [ 60%] [32m[1mLinking CXX shared library libcreate_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[24.937s] [ 62%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create_msgs/msg/charging_state__type_support.cpp.o[0m
+[24.948s] [ 63%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create_msgs/msg/bumper__type_support.cpp.o[0m
+[25.070s] [ 64%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create_msgs/msg/define_song__type_support.cpp.o[0m
+[25.092s] [ 65%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create_msgs/msg/mode__type_support.cpp.o[0m
+[25.177s] [ 67%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create_msgs/msg/play_song__type_support.cpp.o[0m
+[25.219s] [ 68%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create_msgs/msg/motor_setpoint__type_support.cpp.o[0m
+[25.253s] [ 68%] Built target create_msgs__rosidl_typesupport_fastrtps_c
+[25.295s] [ 69%] [32mBuilding CXX object CMakeFiles/create_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/create_msgs/msg/cliff__type_support.cpp.o[0m
+[25.392s] [ 70%] [32m[1mLinking CXX shared library libcreate_msgs__rosidl_typesupport_c.so[0m
+[25.485s] [ 72%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create_msgs/msg/detail/bumper__type_support.c.o[0m
+[25.485s] [ 73%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create_msgs/msg/detail/charging_state__type_support.c.o[0m
+[25.502s] [ 74%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create_msgs/msg/detail/define_song__type_support.c.o[0m
+[25.548s] [ 74%] Built target create_msgs__rosidl_typesupport_c
+[25.580s] [ 75%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create_msgs/msg/detail/mode__type_support.c.o[0m
+[25.631s] [ 77%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create_msgs/msg/detail/play_song__type_support.c.o[0m
+[25.656s] [ 78%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create_msgs/msg/detail/motor_setpoint__type_support.c.o[0m
+[25.674s] [ 79%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/create_msgs/msg/detail/cliff__type_support.c.o[0m
+[25.797s] [ 81%] [32m[1mLinking C shared library libcreate_msgs__rosidl_typesupport_introspection_c.so[0m
+[25.896s] [ 81%] Built target create_msgs__rosidl_typesupport_introspection_c
+[25.934s] [ 81%] Built target create_msgs
+[25.971s] [ 82%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.076s] [ 82%] Built target create_msgs__py
+[30.117s] [ 83%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_py.dir/rosidl_generator_py/create_msgs/msg/_bumper_s.c.o[0m
+[30.131s] [ 84%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_py.dir/rosidl_generator_py/create_msgs/msg/_charging_state_s.c.o[0m
+[30.159s] [ 86%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_py.dir/rosidl_generator_py/create_msgs/msg/_define_song_s.c.o[0m
+[30.159s] [ 87%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_py.dir/rosidl_generator_py/create_msgs/msg/_mode_s.c.o[0m
+[30.687s] [ 88%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_py.dir/rosidl_generator_py/create_msgs/msg/_cliff_s.c.o[0m
+[31.015s] [ 89%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_py.dir/rosidl_generator_py/create_msgs/msg/_motor_setpoint_s.c.o[0m
+[31.206s] [ 91%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_generator_py.dir/rosidl_generator_py/create_msgs/msg/_play_song_s.c.o[0m
+[31.395s] [ 92%] [32m[1mLinking C shared library rosidl_generator_py/create_msgs/libcreate_msgs__rosidl_generator_py.so[0m
+[31.479s] [ 92%] Built target create_msgs__rosidl_generator_py
+[31.514s] [ 93%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/create_msgs/_create_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.739s] [ 94%] [32m[1mLinking C shared library rosidl_generator_py/create_msgs/create_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[31.807s] [ 94%] Built target create_msgs__rosidl_typesupport_fastrtps_c__pyext
+[31.845s] [ 96%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/create_msgs/_create_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[32.067s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/create_msgs/create_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.137s] [ 97%] Built target create_msgs__rosidl_typesupport_c__pyext
+[32.176s] [ 98%] [32mBuilding C object CMakeFiles/create_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/create_msgs/_create_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[32.399s] [100%] [32m[1mLinking C shared library rosidl_generator_py/create_msgs/create_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[32.469s] [100%] Built target create_msgs__rosidl_typesupport_introspection_c__pyext
+[32.490s] Invoked command in '/home/juand/create_ws/build/create_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --build /home/juand/create_ws/build/create_msgs -- -j4 -l4
+[32.492s] Invoking command in '/home/juand/create_ws/build/create_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --install /home/juand/create_ws/build/create_msgs
+[32.505s] -- Install configuration: ""
+[32.506s] -- Installing: /home/juand/create_ws/install/create_msgs/share/ament_index/resource_index/rosidl_interfaces/create_msgs
+[32.506s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs
+[32.506s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg
+[32.506s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/charging_state.h
+[32.507s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/bumper.h
+[32.507s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/define_song.h
+[32.507s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/rosidl_generator_c__visibility_control.h
+[32.507s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail
+[32.507s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__type_support.h
+[32.507s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__type_support.h
+[32.508s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__type_support.h
+[32.508s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__struct.h
+[32.508s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__functions.h
+[32.508s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__struct.h
+[32.508s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__functions.h
+[32.508s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__type_support.h
+[32.509s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__functions.h
+[32.509s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__functions.h
+[32.510s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__struct.h
+[32.510s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__functions.h
+[32.510s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__type_support.h
+[32.510s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__struct.h
+[32.510s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__type_support.h
+[32.510s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__functions.h
+[32.510s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__struct.h
+[32.511s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__functions.c
+[32.511s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__functions.c
+[32.511s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__functions.c
+[32.511s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__functions.h
+[32.511s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__functions.c
+[32.511s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__type_support.h
+[32.511s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__functions.c
+[32.511s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__functions.c
+[32.512s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__struct.h
+[32.512s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__struct.h
+[32.512s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__functions.c
+[32.512s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/play_song.h
+[32.512s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/mode.h
+[32.512s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/cliff.h
+[32.512s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/motor_setpoint.h
+[32.513s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/environment/library_path.sh
+[32.513s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/environment/library_path.dsv
+[32.513s] -- Installing: /home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_generator_c.so
+[32.514s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_generator_c.so" to ""
+[32.514s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs
+[32.514s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg
+[32.514s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[32.515s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail
+[32.515s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__rosidl_typesupport_fastrtps_c.h
+[32.515s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__rosidl_typesupport_fastrtps_c.h
+[32.515s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__rosidl_typesupport_fastrtps_c.h
+[32.515s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__rosidl_typesupport_fastrtps_c.h
+[32.515s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__rosidl_typesupport_fastrtps_c.h
+[32.515s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__rosidl_typesupport_fastrtps_c.h
+[32.516s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__rosidl_typesupport_fastrtps_c.h
+[32.516s] -- Installing: /home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_fastrtps_c.so
+[32.517s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[32.517s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs
+[32.517s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg
+[32.517s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[32.517s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail
+[32.517s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__rosidl_typesupport_introspection_c.h
+[32.517s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__type_support.c
+[32.518s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__type_support.c
+[32.518s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__type_support.c
+[32.518s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__rosidl_typesupport_introspection_c.h
+[32.518s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__rosidl_typesupport_introspection_c.h
+[32.518s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__type_support.c
+[32.518s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__rosidl_typesupport_introspection_c.h
+[32.519s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__rosidl_typesupport_introspection_c.h
+[32.519s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__type_support.c
+[32.519s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__type_support.c
+[32.519s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__rosidl_typesupport_introspection_c.h
+[32.519s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__type_support.c
+[32.519s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__rosidl_typesupport_introspection_c.h
+[32.520s] -- Installing: /home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_introspection_c.so
+[32.520s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_introspection_c.so" to ""
+[32.521s] -- Installing: /home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_c.so
+[32.521s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_c.so" to ""
+[32.521s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs
+[32.521s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg
+[32.521s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/motor_setpoint.hpp
+[32.522s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/bumper.hpp
+[32.522s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/cliff.hpp
+[32.522s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/define_song.hpp
+[32.522s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[32.522s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/play_song.hpp
+[32.522s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail
+[32.522s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__builder.hpp
+[32.523s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__struct.hpp
+[32.523s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__traits.hpp
+[32.523s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__builder.hpp
+[32.523s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__struct.hpp
+[32.523s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__traits.hpp
+[32.524s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__type_support.hpp
+[32.524s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__struct.hpp
+[32.524s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__builder.hpp
+[32.524s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__struct.hpp
+[32.524s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__traits.hpp
+[32.525s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__traits.hpp
+[32.525s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__builder.hpp
+[32.525s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__type_support.hpp
+[32.525s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__builder.hpp
+[32.525s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__type_support.hpp
+[32.525s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__type_support.hpp
+[32.526s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__traits.hpp
+[32.526s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__type_support.hpp
+[32.526s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__traits.hpp
+[32.526s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__struct.hpp
+[32.526s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__struct.hpp
+[32.527s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__traits.hpp
+[32.527s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__type_support.hpp
+[32.527s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__builder.hpp
+[32.527s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__struct.hpp
+[32.527s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__type_support.hpp
+[32.528s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__builder.hpp
+[32.528s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/mode.hpp
+[32.528s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/charging_state.hpp
+[32.528s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs
+[32.528s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg
+[32.529s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[32.529s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail
+[32.529s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__rosidl_typesupport_fastrtps_cpp.hpp
+[32.529s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__rosidl_typesupport_fastrtps_cpp.hpp
+[32.529s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__rosidl_typesupport_fastrtps_cpp.hpp
+[32.529s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__rosidl_typesupport_fastrtps_cpp.hpp
+[32.530s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__rosidl_typesupport_fastrtps_cpp.hpp
+[32.530s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__rosidl_typesupport_fastrtps_cpp.hpp
+[32.530s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__rosidl_typesupport_fastrtps_cpp.hpp
+[32.530s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/dds_fastrtps
+[32.530s] -- Installing: /home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_fastrtps_cpp.so
+[32.531s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[32.531s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs
+[32.531s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg
+[32.532s] -- Up-to-date: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail
+[32.532s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__type_support.cpp
+[32.532s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__type_support.cpp
+[32.532s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__rosidl_typesupport_introspection_cpp.hpp
+[32.532s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__type_support.cpp
+[32.532s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__type_support.cpp
+[32.533s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/play_song__rosidl_typesupport_introspection_cpp.hpp
+[32.533s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/motor_setpoint__rosidl_typesupport_introspection_cpp.hpp
+[32.533s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__rosidl_typesupport_introspection_cpp.hpp
+[32.533s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/cliff__rosidl_typesupport_introspection_cpp.hpp
+[32.533s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__type_support.cpp
+[32.534s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/charging_state__rosidl_typesupport_introspection_cpp.hpp
+[32.534s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/define_song__type_support.cpp
+[32.534s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/mode__rosidl_typesupport_introspection_cpp.hpp
+[32.534s] -- Installing: /home/juand/create_ws/install/create_msgs/include/create_msgs/create_msgs/msg/detail/bumper__type_support.cpp
+[32.534s] -- Installing: /home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_introspection_cpp.so
+[32.535s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[32.535s] -- Installing: /home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_cpp.so
+[32.536s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_typesupport_cpp.so" to ""
+[32.536s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/environment/pythonpath.sh
+[32.536s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/environment/pythonpath.dsv
+[32.536s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs-3.1.0-py3.10.egg-info
+[32.537s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs-3.1.0-py3.10.egg-info/SOURCES.txt
+[32.537s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs-3.1.0-py3.10.egg-info/dependency_links.txt
+[32.537s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs-3.1.0-py3.10.egg-info/top_level.txt
+[32.537s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs-3.1.0-py3.10.egg-info/PKG-INFO
+[32.537s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs
+[32.538s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg
+[32.538s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_charging_state_s.c
+[32.538s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_motor_setpoint.py
+[32.538s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_cliff_s.c
+[32.538s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_bumper.py
+[32.539s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_cliff.py
+[32.539s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_charging_state.py
+[32.539s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/__init__.py
+[32.539s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_bumper_s.c
+[32.539s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_define_song.py
+[32.539s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_mode.py
+[32.540s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_play_song.py
+[32.540s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_motor_setpoint_s.c
+[32.540s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_define_song_s.c
+[32.540s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_play_song_s.c
+[32.540s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_mode_s.c
+[32.541s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[32.541s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/_create_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[32.541s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[32.541s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/libcreate_msgs__rosidl_generator_py.so
+[32.541s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/__init__.py
+[32.542s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/_create_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[32.542s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/_create_msgs_s.ep.rosidl_typesupport_c.c
+[32.542s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[32.610s] Listing '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs'...
+[32.610s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/__init__.py'...
+[32.610s] Listing '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg'...
+[32.610s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/__init__.py'...
+[32.610s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_bumper.py'...
+[32.610s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_charging_state.py'...
+[32.610s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_cliff.py'...
+[32.610s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_define_song.py'...
+[32.611s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_mode.py'...
+[32.611s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_motor_setpoint.py'...
+[32.611s] Compiling '/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/msg/_play_song.py'...
+[32.615s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[32.616s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[32.616s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[32.616s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[32.617s] -- Installing: /home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[32.617s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/local/lib/python3.10/dist-packages/create_msgs/create_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[32.617s] -- Installing: /home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_generator_py.so
+[32.618s] -- Set runtime path of "/home/juand/create_ws/install/create_msgs/lib/libcreate_msgs__rosidl_generator_py.so" to ""
+[32.618s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/Bumper.idl
+[32.618s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/ChargingState.idl
+[32.618s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/DefineSong.idl
+[32.619s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/Mode.idl
+[32.619s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/PlaySong.idl
+[32.619s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/MotorSetpoint.idl
+[32.619s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/Cliff.idl
+[32.619s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/Bumper.msg
+[32.620s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/ChargingState.msg
+[32.620s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/DefineSong.msg
+[32.620s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/Mode.msg
+[32.620s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/PlaySong.msg
+[32.620s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/MotorSetpoint.msg
+[32.621s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/msg/Cliff.msg
+[32.621s] -- Installing: /home/juand/create_ws/install/create_msgs/share/ament_index/resource_index/package_run_dependencies/create_msgs
+[32.621s] -- Installing: /home/juand/create_ws/install/create_msgs/share/ament_index/resource_index/parent_prefix_path/create_msgs
+[32.621s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/environment/ament_prefix_path.sh
+[32.622s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/environment/ament_prefix_path.dsv
+[32.622s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/environment/path.sh
+[32.622s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/environment/path.dsv
+[32.622s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/local_setup.bash
+[32.622s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/local_setup.sh
+[32.623s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/local_setup.zsh
+[32.623s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/local_setup.dsv
+[32.623s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/package.dsv
+[32.623s] -- Installing: /home/juand/create_ws/install/create_msgs/share/ament_index/resource_index/packages/create_msgs
+[32.624s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_generator_cExport.cmake
+[32.624s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_generator_cExport-noconfig.cmake
+[32.624s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[32.624s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[32.624s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgs__rosidl_typesupport_introspection_cExport.cmake
+[32.625s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[32.625s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgs__rosidl_typesupport_cExport.cmake
+[32.625s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[32.625s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_generator_cppExport.cmake
+[32.626s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[32.626s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[32.626s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[32.626s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[32.627s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgs__rosidl_typesupport_cppExport.cmake
+[32.627s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[32.627s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_generator_pyExport.cmake
+[32.627s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/export_create_msgs__rosidl_generator_pyExport-noconfig.cmake
+[32.627s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/rosidl_cmake-extras.cmake
+[32.628s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[32.628s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[32.629s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[32.629s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[32.629s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[32.629s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[32.629s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgsConfig.cmake
+[32.630s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/cmake/create_msgsConfig-version.cmake
+[32.630s] -- Installing: /home/juand/create_ws/install/create_msgs/share/create_msgs/package.xml
+[32.632s] Invoked command in '/home/juand/create_ws/build/create_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/juand/turtlebot3_ws/install/turtlebot_itm:/home/juand/turtlebot3_ws/install/turtlebot3_teleop:/home/juand/turtlebot3_ws/install/turtlebot3_example:/home/juand/turtlebot3_ws/install/turtlebot3_autorace:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_mission:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_detect:/home/juand/turtlebot3_ws/install/turtlebot3_autorace_camera:/home/juand/create_ws/install/modelo_create:/opt/ros/humble /usr/bin/cmake --install /home/juand/create_ws/build/create_msgs

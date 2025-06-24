@@ -1,0 +1,19 @@
+running egg_info
+writing ../../build/modelo_create/modelo_create.egg-info/PKG-INFO
+writing dependency_links to ../../build/modelo_create/modelo_create.egg-info/dependency_links.txt
+writing entry points to ../../build/modelo_create/modelo_create.egg-info/entry_points.txt
+writing requirements to ../../build/modelo_create/modelo_create.egg-info/requires.txt
+writing top-level names to ../../build/modelo_create/modelo_create.egg-info/top_level.txt
+reading manifest file '../../build/modelo_create/modelo_create.egg-info/SOURCES.txt'
+writing manifest file '../../build/modelo_create/modelo_create.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/juand/create_ws/install/modelo_create/lib/python3.10/site-packages/modelo_create-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/modelo_create/modelo_create.egg-info to /home/juand/create_ws/install/modelo_create/lib/python3.10/site-packages/modelo_create-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleopkey script to /home/juand/create_ws/install/modelo_create/lib/modelo_create
+writing list of installed files to '/home/juand/create_ws/build/modelo_create/install.log'

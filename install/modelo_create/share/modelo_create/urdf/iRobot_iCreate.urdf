@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This URDF was automatically created by SolidWorks to URDF Exporter! Originally created by Stephen Brawner (brawner@gmail.com) 
+     Commit Version: 1.6.0-4-g7f85cfe  Build Version: 1.6.7995.38578
+     For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
+<robot
+  name="iRobot_iCreate">
+  <link
+    name="base_link">
+    <inertial>
+      <origin
+        xyz="-0.00021617 0.032882 -0.032842"
+        rpy="0 0 0" />
+      <mass
+        value="4.5107" />
+      <inertia
+        ixx="0.020924"
+        ixy="-3.0619E-05"
+        ixz="-3.7568E-06"
+        iyy="0.037502"
+        iyz="0.0016124"
+        izz="0.054591" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://modelo_create/meshes/base_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.29804 0.29804 0.29804 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://modelo_create/meshes/base_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <link
+    name="Llanta_Izq_link">
+    <inertial>
+      <origin
+        xyz="-2.664E-17 1.3878E-17 0.027819"
+        rpy="0 0 0" />
+      <mass
+        value="0.083118" />
+      <inertia
+        ixx="3.0049E-05"
+        ixy="-1.837E-22"
+        ixz="-5.7964E-22"
+        iyy="3.0049E-05"
+        iyz="1.066E-21"
+        izz="4.489E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://modelo_create/meshes/Llanta_Izq_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://modelo_create/meshes/Llanta_Izq_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Llanta_Izq_joint"
+    type="continuous">
+    <origin
+      xyz="-0.08565 -0.0032627 -0.047454"
+      rpy="1.5708 -0.068646 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="Llanta_Izq_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="100"
+      velocity="0" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+  <link
+    name="Llanta_Der_link">
+    <inertial>
+      <origin
+        xyz="6.9389E-18 -1.3878E-17 0.027819"
+        rpy="0 0 0" />
+      <mass
+        value="0.083118" />
+      <inertia
+        ixx="3.0049E-05"
+        ixy="8.4703E-22"
+        ixz="1.7507E-21"
+        iyy="3.0049E-05"
+        iyz="-1.091E-21"
+        izz="4.489E-05" />
+    </inertial>
+    <visual>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://modelo_create/meshes/Llanta_Der_link.STL" />
+      </geometry>
+      <material
+        name="">
+        <color
+          rgba="0.79216 0.81961 0.93333 1" />
+      </material>
+    </visual>
+    <collision>
+      <origin
+        xyz="0 0 0"
+        rpy="0 0 0" />
+      <geometry>
+        <mesh
+          filename="package://modelo_create/meshes/Llanta_Der_link.STL" />
+      </geometry>
+    </collision>
+  </link>
+  <joint
+    name="Llanta_Der_joint"
+    type="continuous">
+    <origin
+      xyz="0.093621 -0.003219 -0.046819"
+      rpy="-1.5708 0.85455 -1.5708" />
+    <parent
+      link="base_link" />
+    <child
+      link="Llanta_Der_link" />
+    <axis
+      xyz="0 0 1" />
+    <limit
+      effort="100"
+      velocity="0" />
+    <dynamics
+      damping="0.1"
+      friction="0.1" />
+  </joint>
+</robot>
