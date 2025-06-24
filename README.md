@@ -1,7 +1,7 @@
 # <p align="center">Create 2 + LIDAR + SLAM Toolbox + Teleoperación</p>
 
 <p align="center">
-  <i>Repositorio con todo el entorno ROS 2 configurado para realizar mapeo y navegación autónoma con el robot <b>Create 2</b> usando <code>slam_toolbox</code>, sensor LIDAR y teleoperación por teclado.</i>
+  <i>Entorno ROS 2 configurado para realizar mapeo y navegación autónoma con el robot <b>Create 2</b> usando <code>slam_toolbox</code>, sensor LIDAR y teleoperación por teclado.</i>
 </p>
 
 ---
@@ -15,9 +15,8 @@
 ---
 
 ## Conexión y Nodo Base
-
+Lanzar el nodo bringup para conocer el estado del robot después de establecer la conexión.
 ```bash
-# Lanzar el nodo bringup para conocer el estado del robot después de establecer la conexión
 ros2 launch create_bringup create_2.launch
 ```
 
@@ -41,7 +40,7 @@ sudo usermod -aG dialout $USER
 lsusb
 ```
 
-> Nota: En caso de que el puerto no sea `ttyUSB0`, editar el archivo `rplidar.launch.py` para usar el puerto correcto.
+> Nota: En caso de que el puerto no sea `ttyUSB0`, editar el archivo `rplidar.launch.py` para ajustar por el puerto correcto.
 
 4. Ejecutar nodo del LIDAR:
 ```bash
@@ -52,47 +51,45 @@ ros2 launch rplidar_ros rplidar.launch.py
 ```bash
 ros2 launch rplidar_ros view_rplidar.launch.py
 ```
-
+En la siguiente imagen se observa el robot create 2 con el lidar y la captura del mismo en Rviz.
 <p align="center">
-  <img src="rviz_lidar_example.png" alt="Vista de Rviz con LIDAR activo" width="700">
+  <img src="https://github.com/user-attachments/assets/7aac8755-940b-402e-8435-499501eee820" alt="Vista de Rviz con LIDAR activo" width="700">
 </p>
 
 ---
 
 ##  SLAM Toolbox (en PC)
 
-1. El sensor LIDAR se agregó al URDF del robot y se enlazó al `base_link`.
-
-2. Ejecutar SLAM Toolbox luego del nodo bringup y del LIDAR:
+1. Ejecutar SLAM Toolbox luego del nodo bringup y del LIDAR:
 ```bash
 ros2 launch slam_toolbox online_async_launch.py
 ```
 
-3. Mover el robot usando teleoperación para generar el mapa. Luego, guardar el resultado:
+2. Mover el robot usando teleoperación para generar el mapa.
+```bash
+ros2 run modelo_create teleopkey
+```
+
+3. Guardar el mapa creado:
 ```bash
 ros2 run nav2_map_server map_saver -f /ruta/mapa_guardado
 ```
-
-<p align="center">
-  <img src="slam_map_example.png" alt="Mapa generado por SLAM Toolbox" width="700">
-</p>
-
 ---
 
-## 🎮 Teleoperación por Teclado
+## Teleoperación por Teclado
 
 Se incluye un nodo en Python que permite controlar el robot usando las teclas `W/A/S/D`. El nodo publica directamente en `/cmd_vel`.
 
 ### Controles:
 
-- **w** → avanzar  
-- **s** → retroceder  
-- **a** → girar izquierda  
-- **d** → girar derecha  
-- **espacio** → detener  
-- **q** → salir
+- **w** → Avanzar  
+- **s** → Retroceder  
+- **a** → Girar izquierda  
+- **d** → Girar derecha  
+- **Espacio** → Detener  
+- **q** → Salir
 
-> Este nodo fue desarrollado sobre ROS2 y está incluido en `teleop_keyboard.py`.
+> Este nodo fue desarrollado sobre ROS2 y está incluido en `teleopkey.py`.
 
 ---
 
