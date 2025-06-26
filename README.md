@@ -83,12 +83,9 @@ ros2 run nav2_map_server map_saver -f /ruta/mapa_guardado
 ---
 
 
-
-
-
 ## Teleoperación por Teclado
 
-Se incluye un nodo en Python que permite controlar el robot usando las teclas `W/A/S/D`. El nodo publica directamente en `/cmd_vel`.
+Se incluye un nodo en Python que permite controlar el robot usando las teclas `W/A/S/D`. El nodo publica valores de velocidad angular y lineal directamente en `/cmd_vel`.
 
 ### Controles:
 
