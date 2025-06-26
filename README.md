@@ -70,11 +70,8 @@ ros2 launch slam_toolbox online_async_launch.py
 ros2 run modelo_create teleopkey
 ```
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/669a3693-4ac7-48ae-8176-fd0588fe2aec" alt="Mapeo SLAM Toolbox" width="400">
-  <img src="https://github.com/user-attachments/assets/75d2b93b-a2db-496e-9d40-158dca54039b" alt="Mapeo SLAM Toolbox" width="400">
+  <img src="https://github.com/user-attachments/assets/5b4cbccb-2462-4198-9089-a37231c67754" alt="Mapeo SLAM Toolbox" width="600">
 </p>
-
-
 
 3. Guardar el mapa creado:
 ```bash
